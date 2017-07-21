@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        id="@+id/tab_workout"
+        icon="@drawable/ic_workout"
+        title="@string/tab_workout"/>
+    <tab
+        id="@+id/tab_routines"
+        icon="@drawable/ic_routines"
+        title="@string/tab_routines"/>
+    <tab
+        id="@+id/tab_progression"
+        icon="@drawable/ic_progression"
+        title="@string/tab_progression"/>
+    <tab
+        id="@+id/tab_sessions"
+        icon="@drawable/ic_sessions"
+        title="@string/tab_sessions"/>
+    <tab
+        id="@+id/tab_settings"
+        icon="@drawable/ic_settings"
+        title="@string/tab_settings"/>
+</tabs>
