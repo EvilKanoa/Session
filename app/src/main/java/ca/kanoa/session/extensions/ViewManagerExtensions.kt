@@ -5,6 +5,6 @@ import com.roughike.bottombar.BottomBar
 import org.jetbrains.anko.custom.ankoView
 
 /* BottomBar */
-inline fun ViewManager.bottomBar() = bottomBar { }
+fun ViewManager.bottomBar() = bottomBar { }
 
 inline fun ViewManager.bottomBar(init: BottomBar.() -> Unit) = ankoView({ BottomBar(it) }, theme = 0, init = init)
