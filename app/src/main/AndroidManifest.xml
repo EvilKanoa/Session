@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".views.MainActivity"
+            android:name="ca.kanoa.session.views.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
 
