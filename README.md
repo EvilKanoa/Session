@@ -1,4 +1,4 @@
-# Session (Work Helper) #
+# Session (Workout Helper) #
 
 > Don't re-invent the wheel.
 
