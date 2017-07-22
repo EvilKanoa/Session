@@ -1,4 +1,5 @@
 <resources>
+    <!-- General -->
     <string name="app_name">Session</string>
 
     <!-- Tabs -->
@@ -7,4 +8,8 @@
     <string name="tab_progression">Progression</string>
     <string name="tab_sessions">Sessions</string>
     <string name="tab_settings">Settings</string>
+
+    <!-- Preferences -->
+    <string name="workout_category">Workout</string>
+    <string name="metric_units">Metric Units</string>
 </resources>

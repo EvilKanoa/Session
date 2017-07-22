@@ -1,6 +1,7 @@
 package ca.kanoa.session.views
 
 import android.os.Bundle
+import android.transition.Fade
 import android.support.v7.app.AppCompatActivity
 import ca.kanoa.session.R
 import ca.kanoa.session.extensions.bottomBar
@@ -48,9 +49,10 @@ class MainActivity : AppCompatActivity(), AnkoLogger {
             R.id.tab_settings -> SettingsFragment.newInstance()
             else -> WorkoutFragment.newInstance()
         }
+
         supportFragmentManager.beginTransaction().apply {
+            setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
             replace(R.id.main_container, fragment)
-            commit()
-        }
+        }.commit()
     }
 }
